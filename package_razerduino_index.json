@@ -1,0 +1,31 @@
+{
+    "packages": [
+      {
+        "name": "razerduino",
+        "maintainer": "DarkMetalMouse",
+        "websiteURL": "https://github.com/DarkMetalMouse/razerduino",
+        "email": "",
+        "platforms": [
+          {
+            "name": "razerduino",
+            "architecture": "avr",
+            "version": "0.9.0",
+            "category": "Contributed",
+            "url": "https://github.com/DarkMetalMouse/razerduino/blob/master/razerduino-0.9.0.zip?raw=true",
+            "archiveFileName": "razerduino-0.9.0.zip",
+            "checksum": "SHA-256:85744dad5f19a142d8b74e441e4820ab64853b87be414fe4cc144bb7b131b802",
+            "size": "6010904",
+            "boards": [
+              {"name": "microrazer"}
+            ],
+            "toolsDependencies": [
+
+                { "packager": "arduino", "name": "avr-gcc", "version": "7.3.0-atmel3.6.1-arduino7" },
+                { "packager": "arduino", "name": "avrdude", "version": "6.3.0-arduino17" }
+            ]
+          }
+        ],
+        "tools": []
+      }
+    ]
+  }
