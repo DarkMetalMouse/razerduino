@@ -1,6 +1,6 @@
 # razerduino
 
-Exploit a privlage escalation bug in razer's synaps installer with an arduino pro micro explained in [this teweet](https://twitter.com/j0nh4t/status/1429049506021138437).
+Exploit a privlage escalation bug in razer's synaps installer with an arduino pro micro explained in [this tweet](https://twitter.com/j0nh4t/status/1429049506021138437).
 This custom board emulates a "Mamba 2015 Tournament Edition" mouse.
 
 ## Installation
