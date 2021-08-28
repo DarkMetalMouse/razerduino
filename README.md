@@ -1,11 +1,11 @@
 # razerduino
 
-Exploit a privlage escalation bug in razer's synaps installer with an arduino pro micro explained in [this tweet](https://twitter.com/j0nh4t/status/1429049506021138437).
+Exploit a privilege escalation bug in Razer's Synapse installer with an Arduino Pro Micro USB ATMEGA32U4 explained in [this tweet](https://twitter.com/j0nh4t/status/1429049506021138437).
 This custom board emulates a "Mamba 2015 Tournament Edition" mouse.
 
 ## Installation
 
-1. Open `File -> prefrences` and add [https://raw.githubusercontent.com/DarkMetalMouse/razerduino/master/package_razerduino_index.json](https://raw.githubusercontent.com/DarkMetalMouse/razerduino/master/package_razerduino_index.json) to `Additional Boards Manager URLS`
+1. Open `File -> Preferences` and add [https://raw.githubusercontent.com/DarkMetalMouse/razerduino/master/package_razerduino_index.json](https://raw.githubusercontent.com/DarkMetalMouse/razerduino/master/package_razerduino_index.json) to `Additional Boards Manager URLS`
 2. Go to `Tools -> Board: "XYZ" -> Boards Manager...`
 3. In the window that pops up, search `razerduino` and click install
 4. Once the install is done, select the `Razer Arduino Micro` from `razerduino`
