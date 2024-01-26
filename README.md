@@ -8,7 +8,7 @@ This custom board emulates a "Mamba 2015 Tournament Edition" mouse.
 1. Open `File -> prefrences` and add [https://raw.githubusercontent.com/DarkMetalMouse/razerduino/master/package_razerduino_index.json](https://raw.githubusercontent.com/DarkMetalMouse/razerduino/master/package_razerduino_index.json) to `Additional Boards Manager URLS`
 2. Go to `Tools -> Board: "XYZ" -> Boards Manager...`
 3. In the window that pops up, search `razerduino` and click install
-4. Once the install is done, select the `Razer Arduino Micro` from `razerduino`
+4. Once the install is done, select the `Razer Arduino Micro` from `razerduino` by going to: `Tools` -> `Board: <name>` -> `razerduino` -> `Razer Arduino Micro`
 5. Open `File -> Examples -> HID -> EnableMouse` and upload the code
 
 ## Customization
